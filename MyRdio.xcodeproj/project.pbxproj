@@ -14,7 +14,7 @@
 		33E40511225B44BB00823844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E4050F225B44BB00823844 /* LaunchScreen.storyboard */; };
 		33E4051C225B44BC00823844 /* MyRdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4051B225B44BC00823844 /* MyRdioTests.swift */; };
 		33E40527225B44BC00823844 /* MyRdioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40526225B44BC00823844 /* MyRdioUITests.swift */; };
-		33E4053A225B450B00823844 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40539225B450B00823844 /* DataManager.swift */; };
+		33E4053A225B450B00823844 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40539225B450B00823844 /* NetworkManager.swift */; };
 		33E40540225B453000823844 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4053E225B453000823844 /* Track.swift */; };
 		33E40541225B453000823844 /* RadioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4053F225B453000823844 /* RadioList.swift */; };
 		33E40546225B453900823844 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40543225B453900823844 /* InfoVC.swift */; };
@@ -93,7 +93,7 @@
 		33E40522225B44BC00823844 /* MyRdioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRdioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E40526225B44BC00823844 /* MyRdioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRdioUITests.swift; sourceTree = "<group>"; };
 		33E40528225B44BC00823844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33E40539225B450B00823844 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		33E40539225B450B00823844 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		33E4053E225B453000823844 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		33E4053F225B453000823844 /* RadioList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioList.swift; sourceTree = "<group>"; };
 		33E40543225B453900823844 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
@@ -229,7 +229,7 @@
 		33E40538225B450B00823844 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				33E40539225B450B00823844 /* DataManager.swift */,
+				33E40539225B450B00823844 /* NetworkManager.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -494,7 +494,7 @@
 				33E4058E225B45D200823844 /* DesignableTextField.swift in Sources */,
 				33E40548225B453900823844 /* RadioPlayVC.swift in Sources */,
 				33E40555225B457F00823844 /* UIImage+DropShadow.swift in Sources */,
-				33E4053A225B450B00823844 /* DataManager.swift in Sources */,
+				33E4053A225B450B00823844 /* NetworkManager.swift in Sources */,
 				33E4059A225B45D200823844 /* SpringLabel.swift in Sources */,
 				33E40541225B453000823844 /* RadioList.swift in Sources */,
 				33E4059B225B45D200823844 /* DesignableTextView.swift in Sources */,
