@@ -1,11 +1,10 @@
 //
 //  UIImageView+Download.swift
-//  RadioTest
+//  MyRdio
 //
-//  Created by Amir Daliri on 11.03.2019.
-//  Copyright © 2019 AmirDaliri. All rights reserved.
+//  Created by Mai Nguyen on 4/8/19.
+//  Copyright © 2019 Mai Nguyen. All rights reserved.
 //
-
 import UIKit
 
 extension UIImageView {

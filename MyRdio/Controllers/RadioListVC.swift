@@ -1,9 +1,9 @@
 //
-//  ViewController.swift
-//  RadioTest
+//  RadioListVC.swift
+//  MyRdio
 //
-//  Created by Amir Daliri on 11.03.2019.
-//  Copyright © 2019 AmirDaliri. All rights reserved.
+//  Created by Mai Nguyen on 4/8/19.
+//  Copyright © 2019 Mai Nguyen. All rights reserved.
 //
 
 import UIKit
@@ -196,7 +196,7 @@ class RadioListVC: UIViewController {
     func loadListFromJSON() {
         
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
-        DataManager.getStationDataWithSuccess() { (data) in
+        NetworkManager.getStationDataWithSuccess() { (data) in
             defer {
                 DispatchQueue.main.async { UIApplication.shared.isNetworkActivityIndicatorVisible = false }
             }
