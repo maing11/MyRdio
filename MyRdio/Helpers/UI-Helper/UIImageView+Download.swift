@@ -7,6 +7,8 @@
 //
 import UIKit
 
+
+// MARK: - There is a method that similar
 extension UIImageView {
     
     func loadImageWithURL(url: URL, callback: @escaping (UIImage) -> ()) {

@@ -9,16 +9,16 @@
 import UIKit
 import MediaPlayer
 
-protocol NowPlayingViewControllerDelegate: class {
+protocol PlayViewControllerDelegate: class {
     func didPressPlayingButton()
     func didPressStopButton()
     func didPressNextButton()
     func didPressPreviousButton()
 }
 
-class RadioPlayVC: UIViewController {
+class RadioDetailVC: UIViewController {
 
-    weak var delegate: NowPlayingViewControllerDelegate?
+    weak var delegate: PlayViewControllerDelegate?
 
     // MARK: - IBOutlet
     

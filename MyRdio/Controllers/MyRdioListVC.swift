@@ -10,14 +10,14 @@ import UIKit
 import MediaPlayer
 import AVFoundation
 
-class RadioListVC: UIViewController {
+class MyRdioListVC: UIViewController {
 
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var stationNowPlayingButton: UIButton!
     @IBOutlet weak var nowPlayingAnimationImageView: UIImageView!
     
-    weak var radioPlayVC: RadioPlayVC?
+    weak var radioPlayVC: RadioDetailVC?
 
     let radioPlayer = RadioStreamer()
 
@@ -79,7 +79,7 @@ class RadioListVC: UIViewController {
         super.prepare(for: segue, sender: nil)
         
         if segue.identifier == "showRadioPlayVC" {
-            let radioPlayVC: RadioPlayVC = segue.destination as! RadioPlayVC
+            let radioPlayVC: RadioDetailVC = segue.destination as! RadioDetailVC
             title = ""
             
             let newStation: Bool
@@ -99,7 +99,7 @@ class RadioListVC: UIViewController {
             
         } else {
             
-            guard let infoVC = segue.destination as? InfoVC else { return }
+            guard let infoVC = segue.destination as? MyInfoVC else { return }
             infoVC.customBlurEffectStyle = .dark
             infoVC.customAnimationDuration = TimeInterval(0.5)
             infoVC.customInitialScaleAmmount = CGFloat(Double(0.7))
@@ -261,7 +261,7 @@ class RadioListVC: UIViewController {
 
 // MARK: - Functionality
 
-extension RadioListVC {
+extension MyRdioListVC {
     
     func setupHandoffUserActivity() {
         userActivity = NSUserActivity(activityType: NSUserActivityTypeBrowsingWeb)
@@ -291,7 +291,7 @@ extension RadioListVC {
     }
 }
 
-extension RadioListVC: UITableViewDataSource, UITableViewDelegate {
+extension MyRdioListVC: UITableViewDataSource, UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -328,7 +328,7 @@ extension RadioListVC: UITableViewDataSource, UITableViewDelegate {
 
 // MARK: - UISearchControllerDelegate / Setup
 
-extension RadioListVC: UISearchResultsUpdating {
+extension MyRdioListVC: UISearchResultsUpdating {
     
     func setupSearchController() {
         guard searchable else { return }
@@ -367,7 +367,7 @@ extension RadioListVC: UISearchResultsUpdating {
 // MARK: - RadioPlayerDelegate
 
 
-extension RadioListVC: RadioPlayerDelegate {
+extension MyRdioListVC: RadioPlayerDelegate {
     
     func playerStateDidChange(_ playerState: FRadioPlayerState) {
         radioPlayVC?.playerStateDidChange(playerState, animate: true)
@@ -393,7 +393,7 @@ extension RadioListVC: RadioPlayerDelegate {
 
 // MARK: - NowPlayingViewControllerDelegate
 
-extension RadioListVC: NowPlayingViewControllerDelegate {
+extension MyRdioListVC: PlayViewControllerDelegate {
     
     func didPressPlayingButton() {
         radioPlayer.player.togglePlaying()

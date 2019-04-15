@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Radio List-->
+        <!--Top US Radio Channels-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RadioListVC" customModule="MyRdio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MyRdioListVC" customModule="MyRdio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="548"/>
                                 <color key="backgroundColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="radioListCell" rowHeight="120" id="Boc-03-hJn" customClass="RadioListCell" customModule="MyRdio" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="radioListCell" rowHeight="120" id="Boc-03-hJn" customClass="RadioListCell" customModule="MyRdio" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Boc-03-hJn" id="wk6-Wi-RxH" customClass="RadioListCell" customModule="MyRdio" customModuleProvider="target">
@@ -136,7 +136,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Radio List" id="QgL-KJ-mAg">
+                    <navigationItem key="navigationItem" title="Top US Radio Channels" id="QgL-KJ-mAg">
                         <barButtonItem key="backBarButtonItem" title=" " id="aOx-kQ-yJX"/>
                         <barButtonItem key="leftBarButtonItem" image="ic-menu" id="lbo-hW-1dp">
                             <color key="tintColor" red="1" green="0.62352941179999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -179,7 +179,7 @@
         <!--AmirDaliri Records-->
         <scene sceneID="Ssf-0C-N5F">
             <objects>
-                <viewController id="8mQ-Ay-WKH" customClass="RadioPlayVC" customModule="MyRdio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8mQ-Ay-WKH" customClass="RadioDetailVC" customModule="MyRdio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CyR-ou-IIS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

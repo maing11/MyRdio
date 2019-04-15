@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330B9205226475520024A009 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9204226475520024A009 /* UIImageView+Extension.swift */; };
 		33E40507225B44B900823844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40506225B44B900823844 /* AppDelegate.swift */; };
 		33E40509225B44B900823844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40508225B44B900823844 /* ViewController.swift */; };
 		33E4050C225B44B900823844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E4050A225B44B900823844 /* Main.storyboard */; };
@@ -17,9 +18,9 @@
 		33E4053A225B450B00823844 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40539225B450B00823844 /* NetworkManager.swift */; };
 		33E40540225B453000823844 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4053E225B453000823844 /* Track.swift */; };
 		33E40541225B453000823844 /* RadioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4053F225B453000823844 /* RadioList.swift */; };
-		33E40546225B453900823844 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40543225B453900823844 /* InfoVC.swift */; };
-		33E40547225B453900823844 /* RadioListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40544225B453900823844 /* RadioListVC.swift */; };
-		33E40548225B453900823844 /* RadioPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40545225B453900823844 /* RadioPlayVC.swift */; };
+		33E40546225B453900823844 /* MyInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40543225B453900823844 /* MyInfoVC.swift */; };
+		33E40547225B453900823844 /* MyRdioListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40544225B453900823844 /* MyRdioListVC.swift */; };
+		33E40548225B453900823844 /* RadioDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E40545225B453900823844 /* RadioDetailVC.swift */; };
 		33E4054B225B453F00823844 /* RadioListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4054A225B453F00823844 /* RadioListCell.swift */; };
 		33E40552225B457F00823844 /* RadioStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4054D225B457F00823844 /* RadioStreamer.swift */; };
 		33E40553225B457F00823844 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4054F225B457F00823844 /* UIImageView+Download.swift */; };
@@ -80,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330B9204226475520024A009 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		33E40503225B44B900823844 /* MyRdio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRdio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E40506225B44B900823844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E40508225B44B900823844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,9 +98,9 @@
 		33E40539225B450B00823844 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		33E4053E225B453000823844 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		33E4053F225B453000823844 /* RadioList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioList.swift; sourceTree = "<group>"; };
-		33E40543225B453900823844 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
-		33E40544225B453900823844 /* RadioListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioListVC.swift; sourceTree = "<group>"; };
-		33E40545225B453900823844 /* RadioPlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayVC.swift; sourceTree = "<group>"; };
+		33E40543225B453900823844 /* MyInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoVC.swift; sourceTree = "<group>"; };
+		33E40544225B453900823844 /* MyRdioListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRdioListVC.swift; sourceTree = "<group>"; };
+		33E40545225B453900823844 /* RadioDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioDetailVC.swift; sourceTree = "<group>"; };
 		33E4054A225B453F00823844 /* RadioListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioListCell.swift; sourceTree = "<group>"; };
 		33E4054D225B457F00823844 /* RadioStreamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStreamer.swift; sourceTree = "<group>"; };
 		33E4054F225B457F00823844 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
@@ -194,10 +196,10 @@
 				33E40558225B459D00823844 /* AppSetting.swift */,
 				33E40556225B459600823844 /* stations.json */,
 				33E4054C225B457F00823844 /* Helpers */,
-				33E40549225B453F00823844 /* Cell */,
+				33E40549225B453F00823844 /* View */,
 				33E40542225B453900823844 /* Controllers */,
 				33E4053D225B453000823844 /* Model */,
-				33E40538225B450B00823844 /* Requests */,
+				33E40538225B450B00823844 /* Networking */,
 				33E40506225B44B900823844 /* AppDelegate.swift */,
 				33E40508225B44B900823844 /* ViewController.swift */,
 				33E4050A225B44B900823844 /* Main.storyboard */,
@@ -226,12 +228,13 @@
 			path = MyRdioUITests;
 			sourceTree = "<group>";
 		};
-		33E40538225B450B00823844 /* Requests */ = {
+		33E40538225B450B00823844 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				33E40539225B450B00823844 /* NetworkManager.swift */,
+				330B9204226475520024A009 /* UIImageView+Extension.swift */,
 			);
-			path = Requests;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		33E4053D225B453000823844 /* Model */ = {
@@ -246,19 +249,19 @@
 		33E40542225B453900823844 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				33E40543225B453900823844 /* InfoVC.swift */,
-				33E40544225B453900823844 /* RadioListVC.swift */,
-				33E40545225B453900823844 /* RadioPlayVC.swift */,
+				33E40543225B453900823844 /* MyInfoVC.swift */,
+				33E40544225B453900823844 /* MyRdioListVC.swift */,
+				33E40545225B453900823844 /* RadioDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		33E40549225B453F00823844 /* Cell */ = {
+		33E40549225B453F00823844 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				33E4054A225B453F00823844 /* RadioListCell.swift */,
 			);
-			path = Cell;
+			path = View;
 			sourceTree = "<group>";
 		};
 		33E4054C225B457F00823844 /* Helpers */ = {
@@ -283,19 +286,19 @@
 		33E4055A225B45D200823844 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				33E4055B225B45D200823844 /* Popup */,
+				33E4055B225B45D200823844 /* Tools */,
 				33E4055D225B45D200823844 /* FRadioPlayer */,
 				33E40561225B45D200823844 /* Spring */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		33E4055B225B45D200823844 /* Popup */ = {
+		33E4055B225B45D200823844 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 				33E4055C225B45D200823844 /* MIBlurPopup.swift */,
 			);
-			path = Popup;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		33E4055D225B45D200823844 /* FRadioPlayer */ = {
@@ -482,7 +485,8 @@
 				33E40597225B45D200823844 /* DesignableTabBarController.swift in Sources */,
 				33E40552225B457F00823844 /* RadioStreamer.swift in Sources */,
 				33E4058D225B45D200823844 /* BlurView.swift in Sources */,
-				33E40547225B453900823844 /* RadioListVC.swift in Sources */,
+				33E40547225B453900823844 /* MyRdioListVC.swift in Sources */,
+				330B9205226475520024A009 /* UIImageView+Extension.swift in Sources */,
 				33E40589225B45D200823844 /* Spring.swift in Sources */,
 				33E40559225B459D00823844 /* AppSetting.swift in Sources */,
 				33E4058B225B45D200823844 /* DesignableLabel.swift in Sources */,
@@ -492,7 +496,7 @@
 				33E40596225B45D200823844 /* DesignableView.swift in Sources */,
 				33E40590225B45D200823844 /* SpringButton.swift in Sources */,
 				33E4058E225B45D200823844 /* DesignableTextField.swift in Sources */,
-				33E40548225B453900823844 /* RadioPlayVC.swift in Sources */,
+				33E40548225B453900823844 /* RadioDetailVC.swift in Sources */,
 				33E40555225B457F00823844 /* UIImage+DropShadow.swift in Sources */,
 				33E4053A225B450B00823844 /* NetworkManager.swift in Sources */,
 				33E4059A225B45D200823844 /* SpringLabel.swift in Sources */,
@@ -512,7 +516,7 @@
 				33E40588225B45D200823844 /* ImageLoader.swift in Sources */,
 				33E40585225B45D200823844 /* KeyboardLayoutConstraint.swift in Sources */,
 				33E40553225B457F00823844 /* UIImageView+Download.swift in Sources */,
-				33E40546225B453900823844 /* InfoVC.swift in Sources */,
+				33E40546225B453900823844 /* MyInfoVC.swift in Sources */,
 				33E40595225B45D200823844 /* SpringTextField.swift in Sources */,
 				33E40540225B453000823844 /* Track.swift in Sources */,
 				33E4058C225B45D200823844 /* SoundPlayer.swift in Sources */,

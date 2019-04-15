@@ -12,7 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    weak var radioListVC: RadioListVC?
+    weak var radioListVC: MyRdioListVC?
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FRadioPlayer.shared.enableArtwork = true
         FRadioPlayer.shared.artworkSize = 600
         if let navigationController = window?.rootViewController as? UINavigationController {
-            radioListVC = navigationController.viewControllers.first as? RadioListVC
+            radioListVC = navigationController.viewControllers.first as? MyRdioListVC
         }
         return true
     }

@@ -9,7 +9,7 @@
 import UIKit
 import MessageUI
 
-class InfoVC: UIViewController {
+class MyInfoVC: UIViewController {
 
     
     @IBOutlet weak var popupContentContainerView: UIView!
@@ -82,7 +82,7 @@ class InfoVC: UIViewController {
 
 // MARK: - MIBlurPopupDelegate
 
-extension InfoVC: MIBlurPopupDelegate {
+extension MyInfoVC: MIBlurPopupDelegate {
     
     var popupView: UIView {
         return popupContentContainerView ?? UIView()
@@ -102,7 +102,7 @@ extension InfoVC: MIBlurPopupDelegate {
     
 }
 
-extension InfoVC: MFMailComposeViewControllerDelegate {
+extension MyInfoVC: MFMailComposeViewControllerDelegate {
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         self.dismiss(animated: true, completion: nil)
     }

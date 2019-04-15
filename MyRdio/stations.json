@@ -2,39 +2,39 @@
     "station":
     [
         {
-            "name": "Absolute Country Hits",
-            "streamURL": "http://strm112.1.fm/acountry_mobile_mp3",
-            "imageURL": "station-absolutecountry.png",
-            "desc": "The Music Starts Here",
-            "longDesc": "All your favorite country hits and artists, from Johnny Cash to Taylor Swift, on 1.FM's Absolute Country, playing non-stop crooners and banjos, dance-tunes and fiddles, ballads and harmonicas. Absolute Country focuses on 5th, 6th and 7th generation Country (from the 90s on) but often delves into classic, older tunes as well."
+            "name": "CNN 650 Radio News / KIKK",
+            "streamURL": "http://streaming.streema.com:8000/listen-cbs",
+            "imageURL": "http://api.radiosworld.info/files/radio/logo/fcb44810c7fefa3a19f340763e92b12f8978fa2f.jpeg",
+            "desc": "Listening to CNN",
+            "longDesc": "US & International News and Reports"
         },
         {
-            "name": "Newport Folk Radio",
-            "streamURL": "http://rfcmedia.streamguys1.com/Newport.mp3",
-            "imageURL": "station-newportfolk.png",
-            "desc": "Are you ready to Folk?",
-            "longDesc": "Do you like Indie music and along with that wants a radio that will provide lots of folk music in their daily radio programs than wait not just tune in to Newport Folk Radio as this is the kind of radio that has got lots of types of Indie music in their daily radio programs along with popular Folk music."
+            "name": "Bloomberg Radio",
+            "streamURL": "http://19313.live.streamtheworld.com:3690/WBBRAMAAC_SC",
+            "imageURL": "http://19313.live.streamtheworld.com:3690/WBBRAMAAC_SC",
+            "desc": "Financial News and More",
+            "longDesc": "Provide the news for financial markets around the world"
         },
         {
-            "name": "The Rock FM",
-            "streamURL": "http://tunein-icecast.mediaworks.nz/rock_128kbps",
-            "imageURL": "station-therockfm.png",
-            "desc": "Rock Music",
-            "longDesc": "NZ's number one Rock music station."
+            "name": "97.3 WMEE",
+            "streamURL": "http://stream.abacast.net/direct/federatedmedia-wmeefmmp3-ibc2&ce=true",
+            "imageURL": "http://api.radiosworld.info/files/radio/logo/b37fb3f3b441a8ac7d98838b2db6d376eb353485.jpeg",
+            "desc": "Music For You",
+            "longDesc": "Listen to the best music in the world."
         },
         {
-            "name": "Classic Rock",
-            "streamURL": "http://rfcmedia.streamguys1.com/classicrock.mp3",
-            "imageURL": "station-classicrock",
-            "desc": "Classic Rock Hits",
-            "longDesc": "Classic rock is a radio format which developed from the album-oriented rock (AOR) format in the early 1980s. In the United States, the classic rock format features music ranging generally from the late 1960s to the late 1980s, primarily focusing on commercially successful hard rock popularized in the 1970s. The radio format became increasingly popular with the baby boomer demographic by the end of the 1990s."
+            "name": "KIX 96",
+            "streamURL": "http://wbez.ord.streamguys1.com:80/wbez128.mp3",
+            "imageURL": "http://api.radiosworld.info/files/radio/logo/ae3da1731dbef6916f25c2d978630ccf56c76f35.jpeg",
+            "desc": "Country Hits",
+            "longDesc": "Country Music is fine"
         },
         {
-            "name": "Radio 1190",
-            "streamURL": "http://radio1190.colorado.edu:8000/high.mp3",
-            "imageURL": "",
-            "desc": "KVCU - Boulder, CO",
-            "longDesc": "Radio 1190 is the bomb."
+            "name": "Hot 93.1",
+            "streamURL": "http://54.235.51.186/homeslice-krcsfmmp3-ibc4?session-id=3ff27155f4d62ed9b68c966f57454c98&ce=true",
+            "imageURL": "http://api.radiosworld.info/files/radio/logo/da4017d209f0215593912206cbe8c1c58d248bc7.png",
+            "desc": "News and Entertainment",
+            "longDesc": "Having func"
         }
     ]
 }
